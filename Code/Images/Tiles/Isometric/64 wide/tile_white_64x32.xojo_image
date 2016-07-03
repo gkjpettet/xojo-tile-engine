@@ -1,0 +1,40 @@
+#tag MultiImage
+Image tile_white_64x32
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAIEAAAAAAIEAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADTl1nPSCsAAAAOoQIUdGlsZV93aGl0ZV82NHgzMi5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6hCdOX2DUAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABzY0IHdpZGUAABAACAAA05dLvwAAABEACAAA05fKJQAAAAEAIAAOoQIADqEBAA6hAAAOoP8ADqDsAAiPTwAGhx8ABjA1AAIAa01hY2ludG9zaCBIRDpVc2VyczoAR2Fycnk6AFJlcG9zOgBYb2pvIFRpbGUgRW5naW5lOgBJbWFnZXM6AFRpbGVzOgBJc29tZXRyaWM6ADY0IHdpZGU6AHRpbGVfd2hpdGVfNjR4MzIucG5nAAAOACoAFAB0AGkAbABlAF8AdwBoAGkAdABlAF8ANgA0AHgAMwAyAC4AcABuAGcADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBWVXNlcnMvR2FycnkvUmVwb3MvWG9qbyBUaWxlIEVuZ2luZS9JbWFnZXMvVGlsZXMvSXNvbWV0cmljLzY0IHdpZGUvdGlsZV93aGl0ZV82NHgzMi5wbmcAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/Garry/Repos/Xojo Tile Engine/Images/Tiles/Isometric/64 wide/tile_white_64x32.png
+		PartialPath = ..\Images\Tiles\Isometric\64 wide\tile_white_64x32.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage

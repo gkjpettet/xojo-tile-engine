@@ -1,0 +1,40 @@
+#tag MultiImage
+Image cube_64_64
+	#tag ImageRepresentation
+		SaveInfo = APHRcwECAQAAAAHsAAAAAAHsAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADTl1nPSCsAAAAOoQIOY3ViZV82NF82NC5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6hA9OX2DUAAAAAAAAAAP////8AAAkgAAAAAAAAAAAAAAAAAAAABzY0IHdpZGUAABAACAAA05dLvwAAABEACAAA05fKJQAAAAEAIAAOoQIADqEBAA6hAAAOoP8ADqDsAAiPTwAGhx8ABjA1AAIAZU1hY2ludG9zaCBIRDpVc2VyczoAR2Fycnk6AFJlcG9zOgBYb2pvIFRpbGUgRW5naW5lOgBJbWFnZXM6AFRpbGVzOgBJc29tZXRyaWM6ADY0IHdpZGU6AGN1YmVfNjRfNjQucG5nAAAOAB4ADgBjAHUAYgBlAF8ANgA0AF8ANgA0AC4AcABuAGcADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBQVXNlcnMvR2FycnkvUmVwb3MvWG9qbyBUaWxlIEVuZ2luZS9JbWFnZXMvVGlsZXMvSXNvbWV0cmljLzY0IHdpZGUvY3ViZV82NF82NC5wbmcAEwABLwAAFQACAAz//wAAAAAAAAAA
+		FullPath = /Users/Garry/Repos/Xojo Tile Engine/Images/Tiles/Isometric/64 wide/cube_64_64.png
+		PartialPath = ..\Images\Tiles\Isometric\64 wide\cube_64_64.png
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1
+			Orientation = Any
+			Platform = 15
+			PPI = 72
+			VSize = -1
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1
+			Orientation = Any
+			Platform = 15
+			PPI = 144
+			VSize = -1
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+	#tag ImageRepresentation
+		#tag ImageSpecification
+			Comment = 
+			Device = 31
+			HSize = -1
+			Orientation = Any
+			Platform = 15
+			PPI = 216
+			VSize = -1
+		#tag EndImageSpecification
+	#tag EndImageRepresentation
+End Image
+#tag EndMultiImage
