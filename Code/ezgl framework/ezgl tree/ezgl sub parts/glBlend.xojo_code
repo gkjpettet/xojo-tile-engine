@@ -22,7 +22,7 @@ Protected Class glBlend
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		 Shared Sub enumUtilBuildEqnListbox(lb As Listbox, initialMenuIndex As integer = 0)
+		Shared Sub enumUtilBuildEqnListbox(lb As Listbox, initialMenuIndex As integer = 0)
 		  if lb = nil then return
 		  
 		  dim enums() As blendEqn, names() As String //get ordered list of all enums
@@ -43,7 +43,7 @@ Protected Class glBlend
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		 Shared Sub enumUtilBuildEqnPopupMenu(popMenu As PopupMenu, initialMenuIndex As integer = 0)
+		Shared Sub enumUtilBuildEqnPopupMenu(popMenu As PopupMenu, initialMenuIndex As integer = 0)
 		  if popMenu = nil then return
 		  
 		  dim enums() As blendEqn, names() As String //get ordered list of all enums
@@ -64,7 +64,7 @@ Protected Class glBlend
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		 Shared Sub enumUtilBuildFunListbox(lb As Listbox, initialMenuIndex As integer = 0)
+		Shared Sub enumUtilBuildFunListbox(lb As Listbox, initialMenuIndex As integer = 0)
 		  if lb = nil then return
 		  
 		  dim enums() As blendFunc, names() As String //get ordered list of all enums
@@ -85,7 +85,7 @@ Protected Class glBlend
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		 Shared Sub enumUtilBuildFunPopupMenu(popMenu As PopupMenu, initialMenuIndex As integer = 0)
+		Shared Sub enumUtilBuildFunPopupMenu(popMenu As PopupMenu, initialMenuIndex As integer = 0)
 		  if popMenu = nil then return
 		  
 		  dim enums() As blendFunc, names() As String //get ordered list of all enums
@@ -214,9 +214,7 @@ Protected Class glBlend
 		  
 		  soft declare sub glBlendEquationSeparate lib "OpenGL" (pmodeRGB As integer, pmodeAlpha As integer)
 		  
-		  
-		  
-		  glBlendEquationSeparate(Int32(modeRGB), Int32(modeAlpha))
+		  glBlendEquationSeparate(Integer(modeRGB), Integer(modeAlpha))
 		End Sub
 	#tag EndMethod
 
@@ -273,6 +271,7 @@ Protected Class glBlend
 			Group="ID"
 			InitialValue="-2147483648"
 			Type="Integer"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Left"
@@ -280,18 +279,23 @@ Protected Class glBlend
 			Group="Position"
 			InitialValue="0"
 			Type="Integer"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Name"
 			Visible=true
 			Group="ID"
+			InitialValue=""
 			Type="String"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Super"
 			Visible=true
 			Group="ID"
+			InitialValue=""
 			Type="String"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Top"
@@ -299,6 +303,7 @@ Protected Class glBlend
 			Group="Position"
 			InitialValue="0"
 			Type="Integer"
+			EditorType=""
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class
